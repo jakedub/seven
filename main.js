@@ -87,11 +87,10 @@ console.log(getLength("apple"))
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
-
 function greaterThan(x,y) {
-  if (x < y) {
-    return "false";
-  } else if (x > y) {
+  if (x > y) {
+    return "true";
+  } else if (x < y) {
     return "true"
   }
 }
