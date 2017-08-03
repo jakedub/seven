@@ -91,7 +91,7 @@ function greaterThan(x,y) {
   if (x > y) {
     return "true";
   } else if (x < y) {
-    return "true"
+    return "false";
   }
 }
 console.log(greaterThan(10,5));
